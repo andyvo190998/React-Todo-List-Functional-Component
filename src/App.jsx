@@ -36,9 +36,8 @@ const App = () => {
 
   const handleOnclick = (e) => {
     e.preventDefault();
-    if (todo.name === '') {
+    if (todo === '') {
       alert('you have to add something ....!');
-      return false
     } else {
       const newTodo = {
         id: Math.floor(Math.random() * 1000),
