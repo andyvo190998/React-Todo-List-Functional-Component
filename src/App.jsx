@@ -15,8 +15,8 @@ const App = () => {
 
   const useStyles = makeStyles({
     table: {
-      marginLeft: "45vh",
-      marginRight: "45vh"
+      // marginLeft: "45vh",
+      // marginRight: "45vh"
     },
     typography: {
       paddingTop: '10px',
@@ -132,7 +132,7 @@ const App = () => {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Typography className={classes.typography} variant="h2">My todo list! ({todos.length})</Typography>
+      <Typography className={classes.typography} variant="h2">My todo list!!!! ({todos.length})</Typography>
       {!openUpdateTodo ? (<form style={{ display: 'flex', justifyContent: 'center', padding: '20px 0px 20px 0px' }} onSubmit={handleOnclick}>
         <TextField l
           label="What do you want to do?"
